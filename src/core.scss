@@ -7,9 +7,9 @@ html:focus-within {
 	scroll-behavior: smooth;
 }
 body {
-	max-width: 70ch;
+	max-width: 80ch;
 	padding: 0 1rem;
-	margin: auto;
+	margin: 2rem auto;
 	background: var(--b-bg-1);
 	font-family: var(--b-font-main);
 	text-rendering: optimizeSpeed;
@@ -54,18 +54,19 @@ h5,
 h6 {
 	line-height: 1.25;
 	margin-top: 2rem;
+	font-weight: 600;
 }
 h1 {
-	font-size: 2rem;
+	font-size: 2.25rem;
 }
 h2 {
-	font-size: 1.5rem;
+	font-size: 1.75rem;
 }
 h3 {
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 }
 h4 {
-	font-size: 1rem;
+	font-size: 1.25rem;
 }
 h5 {
 	font-size: .875rem;
@@ -93,6 +94,10 @@ object {
 }
 iframe {
 	border-style: none;
+}
+hr {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 // Add the correct text decoration in Chrome, Edge, and Safari.
@@ -157,6 +162,13 @@ pre {
 }
 pre code {
 	padding: 0;
+}
+
+// Time.
+time {
+	background: var(--b-bg-2);
+	padding: .125rem .25rem;
+	border-radius: .25rem;
 }
 
 // Details.
